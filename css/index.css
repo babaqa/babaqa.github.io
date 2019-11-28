@@ -1,0 +1,70 @@
+body{
+	text-align: center;
+	margin-top: 100px;
+	font-family: 'Microsoft JhengHei';
+}
+
+#bk_img {
+	width: 900px;
+	height: 494px;
+	display: inline-block;
+	border-radius: 10px;
+	background-image: url('../img/bk_001.jpg');
+}
+
+#bk_img > div{
+	margin: 10px;
+}
+
+#search{
+	width: 85%;
+	display: inline-block;
+	vertical-align:middle;
+}
+
+#clearbutton{
+	display: inline-block;
+	width: 10%;
+	margin-left: 5px;
+	background: slategray;
+}
+
+#qatable{
+	overflow-y: scroll;
+	height: 422px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.thA {
+	width: 700px;
+}
+
+.thB {
+	width: 200px;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+	background-image: -webkit-linear-gradient(330deg, #e0c3fc 0%, #8ec5fc 100%);
+	background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); 
+}
+
+input::-ms-input-placeholder{
+        text-align: center;
+}
+
+input::-webkit-input-placeholder{
+        text-align: center;
